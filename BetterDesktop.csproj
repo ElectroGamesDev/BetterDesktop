@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\AbstractCategoryImage.png" />
+    <None Remove="Images\ArtCategoryImage.png" />
+    <None Remove="Images\CustomCategoryImage.png" />
+    <None Remove="Images\DogCategoryImage.png" />
+    <None Remove="Images\InspirationalCategoryImage.png" />
+    <None Remove="Images\MinimalCategoryImage.png" />
+    <None Remove="Images\NatureCategoryImage.png" />
+    <None Remove="Images\TechnologyCategoryImage.png" />
+    <None Remove="Images\TravelCategoryImage.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\AbstractCategoryImage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\ArtCategoryImage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\CustomCategoryImage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\DogCategoryImage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\InspirationalCategoryImage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\MinimalCategoryImage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\NatureCategoryImage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TechnologyCategoryImage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\TravelCategoryImage.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Octokit" Version="7.0.1" />
+    <PackageReference Include="YamlDotNet" Version="13.1.1" />
+  </ItemGroup>
+
+</Project>
